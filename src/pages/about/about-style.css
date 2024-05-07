@@ -1,0 +1,143 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto Condensed', sans-serif;  
+   list-style: none;
+   border: none;
+   background: none;
+   text-decoration: none;
+   color: inherit;
+}
+
+body {
+   background-color: #f3ecec;
+}
+
+/* Possívis logo-cores:
+   verde (#3a8e5c / rgb 58 142 92), vermelho (#ac0121, rgb 172 1 33), laanja (#d7a14a, rgb 215 161 74).
+*/
+
+header{
+   height: 135px;
+   background-color: #ac0121;
+   margin-bottom: 20px;
+}
+
+#container__header {
+   height: 100%;
+}
+
+.logo__login {
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#a-logo {
+   margin-left: 3%;
+}
+
+#a-logo .logo{
+   width: 150px;
+   border-radius: 15px;
+}
+
+.login{
+   margin-right: 3%;
+   cursor: pointer;
+}
+
+.login .fa-regular {
+   color: white;
+}
+
+.login .login__button {
+   color: #fff;
+   cursor: pointer;
+}
+
+#car-login .carrinho {
+   color: #fff;
+}
+
+main{
+   width: auto;
+   padding: 20px 40px 2px 40px;
+}
+
+#page{
+   display: flex;
+   justify-content: center;   
+}
+
+#about__sorvete__fitness{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+#page p{
+   text-align: justify;
+   font-size: large;
+   padding: 0 60px 0 60px;
+}
+
+/* Footer*/
+footer{
+   height: auto;
+   margin-top: 22px;
+   padding: 15px 40px 15px 40px;
+   background-color: #ac0121;
+}
+
+#f-fig__logo {
+   margin: 10px 0px;
+}
+
+#f-logo {
+   border-radius: 10px;
+}
+
+#container__midias__sociais{
+   height: auto;
+   display: flex;  
+   justify-content: end;
+   gap: 39%; 
+}
+
+#container__midias__sociais figure img{
+   height: 31px;
+}
+
+#container__midias__sociais ul{
+   display: flex;
+   list-style-type: none;
+   gap: 2px;
+}
+
+#container__description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+}
+
+#container__description h2{ 
+   color: white;
+   margin: 0;
+}
+
+#container__description p{
+   margin: 0;
+   color: white;
+   text-align: justify;
+}
+
+#container__footer #copyright{ 
+   color: white;
+   text-align: center;
+   font-size: 14px;
+}

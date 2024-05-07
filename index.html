@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css">
+    <script src="main.js" defer></script>
+    <title>Sorvete Fitness</title>
+</head>
+<body>
+    <header>
+        <div id="container__search">
+            <a id="a-logo" href="index.html">
+                <img class="logo" src="./src/assets/images/logo.PNG" alt="Logo marca sorvete fitness">
+            </a>
+            <div id="search">
+                <input type="text" id="ice_cream" name="ice_cream" placeholder="Encontre o seu sorvete aqui...">
+                <div id="btn__buscar" >
+                    <button id="btn" type="submit">
+                        <img id="img" src="./src/assets/images/lupa.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div id="car-login">
+                <a id="sobre" href="./src/pages/about/about.html">Sobre</a>
+                <a href="./src/pages/login/login.html">
+                    <i class="fa-regular fa-user"></i>
+                    <button class="login">Login</button>                    
+                </a>
+               <a onclick="openModal()" href="#">
+                 <i class="fa fa-shopping-cart" aria-hidden="true">
+               </i></a>
+               <div class="modal__shop">
+
+               </div>
+            </div>            
+        </div>
+    </header>
+    <main>
+        <section id="main__img">
+            <img id="img__sorvetes" src="./src/assets/images/img_sorvetes.svg" alt="Imagem de sorvetes de sabores variados">
+            <p class="motivation__msg">Mais sabor, mais saúde. Deguste seu dia.</p>
+        </section>
+        <section id="section__products">
+            <ul id="products__presentation">
+                
+            </ul>
+            
+            <figure id="fig__img__people">                       
+                <img id="motivation__img" src="./src/assets/images/img_motivacional.svg" alt="Imagem de pessoa feliz tomando um sorvete">
+            </figure>
+
+            <figure id="fig__img__message">
+                <img class="img__message"src="./src/assets/images/msg_feliz_hoje.svg" alt="Mensagem Motivacional">
+            </figure>
+        </section>
+    </main>
+    <footer class="footer__description">
+            <div id="container__midias__sociais">
+                <figure id="f-fig__logo">
+                    <img id="f-logo" src="./src/assets/images/logo.PNG" alt="logomarca da sorvete fitness">
+                </figure> 
+
+                <ul id="list__midias__sociais">
+                    <li><a href="#">
+                        <img src="./src/assets/images/facebook.png" alt="">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./src/assets/images/Instagran.png" alt="">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./src/assets/images/YTube.png" alt="">
+                    </a></li>
+                </ul>                
+            </div>
+
+            <div id="container__footer">
+                <p id="copyright">
+                    © Copyright 2024. Todos os direitos reservados. Sorvete Fitness Comércio Eletrônico LTDA
+                    32.143.933/0002-05<br> Avenida do Sorriso, 145 Bairro do Sabor Alegre 
+                    Município: Alegrete / RS - CEP: 00807-000
+                </p>
+            </div>
+    </footer>    
+</body>
+</html>

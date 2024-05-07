@@ -1,0 +1,434 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto Condensed', sans-serif;  
+   list-style: none;
+   border: none;
+   background: none;
+   text-decoration: none;
+   color: inherit;
+}
+
+body {
+   background-color: #f3ecec;
+}
+
+/* Possívis logo-cores:
+   verde (#3a8e5c / rgb 58 142 92), vermelho (#ac0121, rgb 172 1 33), laanja (#d7a14a, rgb 215 161 74).
+*/
+
+header{
+   height: 135px;  
+   width: 100%; 
+   background-color: #ac0121;
+   margin-bottom: 20px;
+}
+#a-logo {
+   margin-left: 3%;
+}
+
+#a-logo .logo{
+   width: 150px;
+   border-radius: 15px;
+}
+
+#container__search{
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+#search{
+   /* height: 1.2rem; */
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   color: white;
+   /* gap: 6%; */
+}
+
+#ice_cream {
+   width: 70%;
+   height: 35px;
+   padding: 0px 0px 0px 15px;
+   border: 1px solid gray;
+   border-radius: 10px;
+
+   color: #000;
+   background-color: #fff;
+}
+
+#btn__buscar{
+   width: 30px; /*!important;*/
+   height: 30px;
+   /* cursor: pointer!important; */
+   border: none;
+   position: relative;
+   left: -35px;
+   background-color: green;  
+}
+
+#btn__buscar button{
+   cursor: pointer;
+}
+
+#btn__buscar button img{
+   width: 100%;
+   height: 100%;
+}
+
+#car-login{
+   width: 17%;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 3%;
+}
+
+#sobre{
+   color: #fff;
+   font-size: 14px;
+}
+
+.fa{
+   color: #fff;
+   font-size: 20px;
+}
+
+#car-login .fa-regular {
+   color: white;
+}
+
+#car-login .login {
+   color: #fff;
+   cursor: pointer;
+}
+
+#car-login .carrinho {
+   color: #fff;
+}
+
+main{
+   width: auto;
+   padding: 20px 40px 2px 40px;
+}
+
+#img__sorvetes {
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+.motivation__msg {
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+#img__sorvetes{
+   width: 100%;
+}
+
+/* Produto*/
+#section__products{  
+   width: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+/* Início - Apresentação de produto*/
+#products__presentation{   
+   display: flex; 
+   justify-content: center;  
+   list-style-type: none;
+   flex-wrap: wrap;
+   padding: 0;
+}
+
+.ice__cream__product{
+   width: 25rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+   box-shadow: gray 2px 1px 10px 0px;
+   border-radius: 10px;
+}
+
+.product__card {
+   padding: 15px;
+}
+
+.ice__cream__img, .list__cart__produts__img {
+   border-radius: 10px 10px 0px 0px;
+}
+
+.ice__cream__product img{
+   height: 100%;
+   width: 100%;
+}
+
+.ice__cream__product a{
+   display: flex;
+   flex-direction: column;
+}
+/* Fim - Apresentação de produto*/
+
+/* Início - Carrinho*/
+#list__cart__produts{ 
+   height: 3%;
+   width: auto;
+   display: flex; 
+   justify-content: center;  
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+
+.cart__product{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+   box-shadow: gray 2px 1px 10px 0px;
+   border-radius: 10px;
+}
+
+.cart__product img{
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.cart__product p{
+   height: auto;
+   font-size: 15px;
+   padding: 0;
+   margin: 0;
+}
+
+.information__and__buttonAdd {
+   display: flex;
+   align-items: center;
+}
+
+.button__add__product {
+   word-wrap: break-word;   
+   width: 80px;
+   height: 45px;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 10px;
+   cursor: pointer;
+   background-color: #ac0121;
+   color: #fff;
+   font-weight: bold;
+}
+
+.button__add__product:hover {
+   /* text-transform: uppercase; */
+   background-color: rgb(74, 172, 74);
+   animation: animationOne;
+   animation-duration: 600ms;
+   color: #f5f5dc;
+}
+
+.more__information__modal {
+   border-top: 2px solid #f3ecec;
+   border-left: 2px solid #f3ecec;
+   border-right: 2px solid #f3ecec;
+   box-shadow: gray 0px 0px 8px 2px;
+   border-radius: 5px;
+   width: 45%;
+   /*height: 500px;*/
+   background-color: #f3ecec;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   animation: animationOne;
+   animation-duration: 800ms;
+}
+
+.more__information {
+   cursor: pointer;
+}
+
+.information__product {
+   display: flex;
+   width: 100%;
+}
+
+.img__information__product {
+   width: 50%;
+}
+
+.information__product img {
+   width: 100%;
+}
+
+.content__information__product {
+   width: 50%;
+   padding: 10px 5px 10px 10px
+}
+
+.content__information__product p {   
+   word-wrap: break-word;
+   text-align: justify;
+}
+
+#presentation__name{
+   color: #ac0121;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.capitular{
+   font-weight: bold;
+}
+
+.icon__information__modal {
+   position: fixed;
+   right: -10px;
+   top: -10px;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+
+/* .add__car{
+   width: 80%;
+   height: 48px;
+   /* padding: 5px; 
+   margin-bottom: 3px;
+   border-radius: 20%;
+   background-color: #ac0121;
+   color: #fff;
+
+   border: solid 3px #f3ecec;
+} */
+
+/* Fim - Carrinho*/
+
+/* Início - Imagem motivacional*/
+#fig__img__people{
+   height: auto;
+   width: auto;
+   margin: 1% 0 0 0;
+}
+
+#fig__img__people img{
+   height: 100%;
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+   margin-bottom: 7px;
+}
+
+#fig__img__message{
+   height: auto;
+   width: auto;
+   margin: 0;
+   padding: 0;
+}
+
+#fig__img__message img{
+   height: 100%;
+   width: 100%;
+   border-radius: 0px 0px 20px 20px;
+}
+
+/* Fim - Imagem motivacional*/
+
+/* Footer*/
+footer{
+   height: auto;
+   margin-top: 7px;
+   padding: 15px 40px 15px 40px;
+   background-color: #ac0121;
+}
+
+#f-fig__logo {
+   margin: 10px 0px;
+}
+
+#f-logo {
+   border-radius: 10px;
+}
+
+#container__midias__sociais{
+   height: auto;
+   display: flex;  
+   justify-content: end;
+   gap: 39%; 
+}
+
+#container__midias__sociais figure img{
+   height: 31px;
+}
+
+#container__midias__sociais ul{
+   display: flex;
+   list-style-type: none;
+   gap: 2px;
+}
+
+#container__description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+}
+
+#container__description h2{ 
+   color: white;
+   margin: 0;
+}
+
+#container__description p{
+   margin: 0;
+   color: white;
+   text-align: justify;
+}
+
+#container__footer #copyright{ 
+   color: white;
+   text-align: center;
+   font-size: 14px;
+}
+
+.modal__shop {
+   padding: 10px 20px 10px 20px;
+   width: 600px;
+   height: 500px;
+   background-color: #f3ecec;
+   border-radius: 10px;
+   box-shadow: gray 2px 1px 10px 0px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   animation: animationOne;
+   animation-duration: 800ms;
+}
+
+.modal__shop__img {
+   width: 80px;
+   border-radius: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.content__modal__shop {
+   display: flex;
+   align-items: center;
+}
+
+@keyframes animationOne{
+   from{opacity: 1;}
+   from{opacity: 0;}
+}

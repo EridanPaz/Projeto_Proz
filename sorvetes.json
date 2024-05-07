@@ -1,0 +1,94 @@
+{
+    "sorvetes": [
+        {
+            "id": "1",
+            "nome": "Sorvete de morango",
+            "imagemURL": "./src/assets/images/morango_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "2",
+            "nome": "Sorvete de chocolate",
+            "imagemURL": "./src/assets/images/chocolate_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "3",
+            "nome": "Sorvete de banana",
+            "imagemURL": "./src/assets/images/banana_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "1",
+            "nome": "Sorvete de morango",
+            "imagemURL": "./src/assets/images/morango_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "2",
+            "nome": "Sorvete de chocolate",
+            "imagemURL": "./src/assets/images/chocolate_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "3",
+            "nome": "Sorvete de banana",
+            "imagemURL": "./src/assets/images/banana_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "1",
+            "nome": "Sorvete de morango",
+            "imagemURL": "./src/assets/images/morango_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "2",
+            "nome": "Sorvete de chocolate",
+            "imagemURL": "./src/assets/images/chocolate_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        },
+        {
+            "id": "3",
+            "nome": "Sorvete de banana",
+            "imagemURL": "./src/assets/images/banana_sorvete.svg",
+            "litros": "1 Litro",
+            "descricao": "",
+            "ingredientes":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+            "disponibilidade":"Sim",
+            "nutri":"Nutritivo"
+        }
+    ]
+}
